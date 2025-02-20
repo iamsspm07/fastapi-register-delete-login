@@ -14,7 +14,7 @@ class Settings:
     def __init__(self):
         try:
             self.DB_USER: str = os.getenv("DB_USER", "root")
-            self.DB_PASSWORD: str = os.getenv("DB_PASSWORD", "Sujitmaity@143")
+            self.DB_PASSWORD: str = os.getenv("DB_PASSWORD", "S*********@143")
             self.DB_HOST: str = os.getenv("DB_HOST", "localhost")
             self.DB_PORT: int = int(os.getenv("DB_PORT", 3306))
             self.DB_NAME: str = os.getenv("DB_NAME", "genaicorelab")
